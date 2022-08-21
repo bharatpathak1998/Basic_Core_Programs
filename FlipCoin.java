@@ -15,10 +15,10 @@ public class FlipCoin {
 
             if (random < 0.5) {
                 head++;
-                System.out.println("Tail : "+head);
+                System.out.println("Head : "+head);
             } else {
                 tail++;
-                System.out.println("Head : "+tail);
+                System.out.println("Tail : "+tail);
             }
         }
         int percentOfHead = (head*100)/flips;
